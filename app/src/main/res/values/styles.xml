@@ -1,11 +1,35 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+
+    <!-- STJ application theme. -->
+    <style name="AppTheme.STJ">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:editTextColor">@android:color/black</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.MaterialComponents.CompoundButton.RadioButton</item>
+        <item name="materialButtonStyle">@style/MyButtonStyle</item>
+        <item name="android:imageButtonStyle">@style/MyImageButtonStyle</item>
+
+    </style>
+
+
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="MyImageButtonStyle" parent="@android:style/Widget.Material.ImageButton">
+        <item name="android:backgroundTint">@color/colorAccent</item>
     </style>
 
 </resources>

@@ -1,3 +1,103 @@
 <resources>
-    <string name="app_name">SaviorStj_Android</string>
+    <string name="app_name">I.mx8</string>
+
+
+    <string name="label_reader_ip">Reader IP</string>
+    <string name="label_reader_netmask">NetMask</string>
+    <string name="label_reader_gateway">GateWay</string>
+    <string name="label_online_ip">Online IP</string>
+    <string name="label_online_port">Online Port</string>
+    <string name="label_wifi_ssid">WiFi SSID</string>
+    <string name="label_wifi_password">WiFi Password</string>
+    <string name="label_gprs_apn">GPRS APN</string>
+
+    <string name="wifi_header">WiFi Security Mode:</string>
+    <string name="wifi_none">None</string>
+    <string name="wifi_wpa2">WPA2</string>
+
+    <string name="str_remove_paycode">Paycode</string>
+    <string name="header_remove_paycode">Remove User</string>
+
+
+    <string name="header_comm_mode">Communication Mode Settings</string>
+    <string name="comm_mode">Communication Mode</string>
+    <string name="comm_tcp">TCP</string>
+    <string name="comm_wifi">WiFi</string>
+    <string name="comm_gprs">GPRS</string>
+    <string name="str_dhcp">DHCP</string>
+    <string name="str_dns">DNS</string>
+    <string name="str_enable">Enable</string>
+    <string name="str_disable">Disable</string>
+
+
+    <string name="header_conf_pass">Please Enter Your Password</string>
+    <string name="hint_password">Password</string>
+
+    <string name="header_reset_pass">Reset Password</string>
+    <string name="hint_pass_conf">Confirm Password</string>
+
+    <string name="header_reader_info">Reader Information</string>
+    <string name="reader_id">Reader ID</string>
+    <string name="model_no">Model No.</string>
+    <string name="firmware_ver">Firmware Version</string>
+    <string name="os_version">OS Version</string>
+    <string name="description">Description</string>
+    <string name="auth_type">Authentication Type</string>
+    <string name="reader_mode">Reader Mode</string>
+    <string name="reader_type">Reader Type</string>
+
+    <string-array name="array_auth_types">
+        <item>Face</item>
+        <item>Only CBM</item>
+        <item>Only Card</item>
+        <item>Card + Finger</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="array_reader_modes">
+        <item>In</item>
+        <item>Out</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="array_reader_types">
+        <item>Attendance</item>
+        <item>Canteen</item>
+    </string-array>
+
+    <string name="header_enroll_user">User Enrollment</string>
+    <string name="sub_enroll">1:N Enrollment</string>
+    <string name="user_paycode">User Paycode</string>
+    <string name="user_name">User Name</string>
+    <string name="user_dob">Date of Birth</string>
+    <string name="dob_placetext">DD/MM/YYYY</string>
+
+    <string name="date_time">DateTime</string>
+    <string name="sub_date_time">change your Device DateTime</string>
+
+    <string name="set_date">Set Reader Date</string>
+    <string name="set_time">Set Reader Time</string>
+
+
+    <string name="str_network">Network Setting</string>
+    <string name="sub_str_network">TCP, WiFi and GPRS Settings</string>
+    <string name="sub_reader_info">Reader ID, Model No etc.</string>
+    <string name="sub_reset_pass">change your Access Password</string>
+    <string name="sub_remove_cbm">Remove Users Record from CBM</string>
+
+    <string name="btn_submit">Submit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_enroll">Start Enrollment</string>
+
+    <string name="finger_1">Finger 1/1</string>
+    <string name="finger_2">Finger 2/1</string>
+    <string name="finger_3">Finger 3/1</string>
+    <string name="finger_4">Finger 1/2</string>
+    <string name="finger_5">Finger 2/2</string>
+    <string name="finger_6">Finger 3/2</string>
+
+    <string name="camera_prev">Camera Preview</string>
+    <string name="sub_camera_prev">Detect Face using Firebase ML-Kit</string>
+
 </resources>

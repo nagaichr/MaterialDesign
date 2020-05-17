@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "501884767322",
+    "firebase_url": "https://imx8-ed923.firebaseio.com",
+    "project_id": "imx8-ed923",
+    "storage_bucket": "imx8-ed923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501884767322:android:cfc3df02acc1f9edb29c63",
+        "android_client_info": {
+          "package_name": "com.includehelp.saviorstj_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501884767322-2okl6mah4eob1e1jrhurrj7dai5hjmvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALz62MsLuZZVmDpChOqk_Zu-4e60jo0-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501884767322-2okl6mah4eob1e1jrhurrj7dai5hjmvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
