@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "303608534284",
+    "firebase_url": "https://face-recognition-e21af.firebaseio.com",
+    "project_id": "face-recognition-e21af",
+    "storage_bucket": "face-recognition-e21af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303608534284:android:6d5963c0b6186af21be529",
+        "android_client_info": {
+          "package_name": "com.saviorstj.smilepass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303608534284-v66v41dd3qm9d9lasgleames8amd9v4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Fozmg9gUO1EVlOuM_bSa2o0KB8ISt4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303608534284-v66v41dd3qm9d9lasgleames8amd9v4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
